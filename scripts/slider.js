@@ -2,23 +2,20 @@ $(document).ready(function() {
     $('.slider-track').slick({
         arrows: false,
         dots: true,
-        adaptiveHeight: true,
         speed: 1000,
         fade: true,
         easing: 'linear',
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 2000,
         centerMode: true,
         centerPadding: '10px'
     });
     $('.slider-main').slick({
         arrows: true,
         dots: false,
-        adaptiveHeight: true,
-        speed: 1000,
         easing: 'linear',
         autoplay: true,
-        autoplaySpeed: 50000,
+        autoplaySpeed: 8000,
         centerMode: true,
         centerPadding: '10px',
     });

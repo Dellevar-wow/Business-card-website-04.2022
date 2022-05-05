@@ -125,7 +125,7 @@ main h2 {
 }
 .slider-wrapper {
     background: linear-gradient(180deg, rgba(223, 218, 218, 0.74) 0%, rgba(223, 218, 218, 0) 100%);
-    display: flex;
+   display: flex;
     opacity: 0.1;
 }
 .slider-wrapper.slick-slide.slick-center {
